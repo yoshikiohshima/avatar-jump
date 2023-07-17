@@ -19,9 +19,10 @@ export function init(Constants) {
         }
     */
 
+    Constants.ExcludedSystemBehaviorModules = ["avatarEvents.js"];
     Constants.UserBehaviorDirectory = "behaviors/default";
     Constants.UserBehaviorModules = [
-        "csmLights.js"
+        "csmLights.js", "avatarEvents.js"
     ];
 
     Constants.DefaultCards = [
